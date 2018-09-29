@@ -1,0 +1,47 @@
+<!--personalInfo.wxml-->
+<view class="container">
+  <view class='profile'>
+   <image class='avatar' src="{{personalProfile.avatarUrl}}" mode="cover"></image>
+   <view class='message'>
+    <text><text class="label">姓名：</text>{{personalProfile.nickName}}</text>
+    <text><text class="label">年龄：</text>{{personalProfile.age}}</text>
+    <text><text class="label">性别：</text>{{personalProfile.sex}}</text>
+    <text><text class="label">地址：</text>{{personalProfile.address}}</text>
+   </view>
+  </view>
+  <view class='profileOther'>
+    <view class='intention'>
+      <view class='rowView'><text class="label">求职状态：</text>{{intention.jobStatus}}</view>
+      <view class='rowView'><text class="label">期望工作地点：</text>{{intention.workPlace}}</view>
+      <view class='rowView'><text class="label">期望从事行业：</text>{{intention.industry}}</view>
+      <view class='rowView'><text class="label">期望从事职业：</text>{{intention.career}}</view>
+      <view class='rowView'><text class="label">期望税前月薪：</text>{{intention.salary}}</view>
+      <view class='rowView'><text class="label">期望工作性质：</text>{{intention.natureWork}}</view>
+    </view>
+    <view class='experience'>
+      <view>
+        <view class='rowExperience'>工作经验</view>
+        <view class='sketch'>{{handsonExp.sketch}}</view>
+        <button class='button' bindtap='handsonExp'>点击查看更多信息</button>
+      </view>
+      <view>
+        <view class='rowExperience'>项目经验</view>
+        <view class='sketch'>{{projectExp.sketch}}</view>
+        <button class='button' bindtap='projectExp'>点击查看更多信息</button>
+      </view>
+      <view>
+        <view class='rowExperience'>教育背景</view>
+        <view class='rowExpMessage'>
+          <text>郑州****学院</text>
+          <text>通信工程</text>
+          <text>本科</text>
+          <!--<text></text>-->
+        </view>
+      </view>
+    </view>
+    <!--<view class='evaluation'>
+      <view class='rowExperience'>自我评价</view>
+      <view>{{evaluation}}</view>
+    </view>-->
+  </view>
+</view>

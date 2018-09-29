@@ -1,0 +1,13 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/personalInfo/personalInfo",
+    "pages/handsonExp/handsonExp"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "xiaoli resume",
+    "navigationBarTextStyle":"black"
+  }
+}

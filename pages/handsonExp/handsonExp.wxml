@@ -1,0 +1,9 @@
+<view class="container">
+    <view wx:for='{{handsonExpList}}' wx:key="id" wx:for-item="item" class="itemWrap">
+        <view class="headline">
+            <view class="companyName">{{item.companyName}}</view>
+            <view class="time">{{item.time}}</view>
+        </view>
+        <view class="content">{{item.content}}</view>
+    </view>
+</view>

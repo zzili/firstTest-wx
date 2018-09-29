@@ -1,0 +1,31 @@
+.container {
+  width:100%;
+  flex-direction: none !important;
+  padding: 30rpx !important;
+  font-size: 35rpx;
+}
+
+.itemWrap {
+  width:100%;
+  margin-bottom: 20rpx;
+}
+
+.headline {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: #aaa;
+    margin-bottom: 10rpx;
+}
+
+.companyName {
+    width: 60%;
+    whate-space: no-wrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: block;
+}
+
+.content {
+    text-indent: 1.5em; 
+}
